@@ -1,0 +1,58 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	../blog/migrations/0001_initial.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../mysite/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../mysite/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:88
+BASE_DIR	../mysite/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+BlogConfig	../blog/apps.py	/^class BlogConfig(AppConfig):$/;"	kind:class	line:4
+DATABASES	../mysite/settings.py	/^DATABASES = {$/;"	kind:variable	line:77
+DEBUG	../mysite/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+INSTALLED_APPS	../mysite/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../mysite/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:107
+MIDDLEWARE	../mysite/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:43
+Migration	../blog/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:11
+Post	../blog/models.py	/^class Post(models.Model): # Delcare Django$/;"	kind:class	line:5
+ROOT_URLCONF	../mysite/settings.py	/^ROOT_URLCONF = 'mysite.urls'$/;"	kind:variable	line:53
+SECRET_KEY	../mysite/settings.py	/^SECRET_KEY = ')oyezw#5heg!cdsay48%smcjmfg8k25$r9atnq0gbw@+j1qxs='$/;"	kind:variable	line:23
+STATIC_ROOT	../mysite/settings.py	/^STATIC_ROOT = os.path.join(BASE_DIR, 'static')/;"	kind:variable	line:123
+STATIC_URL	../mysite/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:122
+TEMPLATES	../mysite/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:55
+TIME_ZONE	../mysite/settings.py	/^TIME_ZONE = 'Asia\/Seoul'$/;"	kind:variable	line:110
+USE_I18N	../mysite/settings.py	/^USE_I18N = True$/;"	kind:variable	line:112
+USE_L10N	../mysite/settings.py	/^USE_L10N = True$/;"	kind:variable	line:114
+USE_TZ	../mysite/settings.py	/^USE_TZ = True$/;"	kind:variable	line:116
+WSGI_APPLICATION	../mysite/settings.py	/^WSGI_APPLICATION = 'mysite.wsgi.application'$/;"	kind:variable	line:71
+__init__.py	../blog/__init__.py	1;"	kind:file	line:1
+__init__.py	../blog/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../mysite/__init__.py	1;"	kind:file	line:1
+__str__	../blog/models.py	/^    def __str__(self):$/;"	kind:member	line:18
+admin.py	../blog/admin.py	1;"	kind:file	line:1
+application	../mysite/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../blog/apps.py	1;"	kind:file	line:1
+author	../blog/models.py	/^    author = models.ForeignKey('auth.User') # 다른 모델에 대한 링크$/;"	kind:variable	line:6
+created_date	../blog/models.py	/^    created_date = models.DateTimeField($/;"	kind:variable	line:9
+default	../blog/models.py	/^        default=timezone.now) # 날짜와 시간$/;"	kind:variable	line:10
+dependencies	../blog/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:15
+fields	../blog/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:22
+initial	../blog/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:13
+manage.py	../manage.py	1;"	kind:file	line:1
+models.py	../blog/models.py	1;"	kind:file	line:1
+name	../blog/apps.py	/^    name = 'blog'$/;"	kind:variable	line:5
+name	../blog/migrations/0001_initial.py	/^            name='Post',$/;"	kind:variable	line:21
+operations	../blog/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:19
+publish	../blog/models.py	/^    def publish(self):$/;"	kind:member	line:14
+published_date	../blog/models.py	/^    published_date = models.DateTimeField($/;"	kind:variable	line:11
+settings.py	../mysite/settings.py	1;"	kind:file	line:1
+tests.py	../blog/tests.py	1;"	kind:file	line:1
+text	../blog/models.py	/^    text = models.TextField() # 글자 수 제한 없음$/;"	kind:variable	line:8
+title	../blog/models.py	/^    title = models.CharField(max_length=200) # 글자 수 제한 텍스트 (ex) 제목.$/;"	kind:variable	line:7
+urlpatterns	../blog/urls.py	/^urlpatterns = [$/;"	kind:variable	line:4
+urlpatterns	../mysite/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urls.py	../blog/urls.py	1;"	kind:file	line:1
+urls.py	../mysite/urls.py	1;"	kind:file	line:1
+views.py	../blog/views.py	1;"	kind:file	line:1
+wsgi.py	../mysite/wsgi.py	1;"	kind:file	line:1
