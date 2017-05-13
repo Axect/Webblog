@@ -50,7 +50,7 @@ settings.py	../mysite/settings.py	1;"	kind:file	line:1
 tests.py	../blog/tests.py	1;"	kind:file	line:1
 text	../blog/models.py	/^    text = models.TextField() # 글자 수 제한 없음$/;"	kind:variable	line:8
 title	../blog/models.py	/^    title = models.CharField(max_length=200) # 글자 수 제한 텍스트 (ex) 제목.$/;"	kind:variable	line:7
-urlpatterns	../blog/urls.py	/^urlpatterns = [$/;"	kind:variable	line:4
+urlpatterns	../blog/urls.py	/^urlpatterns = [$/;"	kind:variable	line:5
 urlpatterns	../mysite/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
 urls.py	../blog/urls.py	1;"	kind:file	line:1
 urls.py	../mysite/urls.py	1;"	kind:file	line:1
