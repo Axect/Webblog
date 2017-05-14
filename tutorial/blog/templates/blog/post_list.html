@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Django Test Blog</title>
+    </head>
+    <body>
+        <div>
+            <h1><a href="">Django Test Blog</a></h1>
+        </div>
+
+        <div>
+            {% for post in posts %}
+                {{post}}
+            {% endfor %}
+        </div>
+
+        <div>
+            <p>Published: 13.05.2017, 17:14</p>
+            <h2><a href="">My first post</a></h2>
+            <p>Something.</p>
+        </div>
+    </body>
+</html>
